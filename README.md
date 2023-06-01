@@ -27,6 +27,7 @@ https://cumbersome-pheasant-bf1.notion.site/f1d44e4ab2c544619e4827d8fb85211c
 ・「git branch sub2」でsub2というブランチが作れます
 ・「git checkout sub2」でsub2というブランチに移動できます
 
+https://qiita.com/TetsuTaka/items/5ab227a8bd2cd7106833
 各ブランチで行った変更は別のブランチに共有されません。
 
 4.ブランチを変えた後「git pull」で保存された変更を読み込んでください。mainブランチから読み込みたいときはsubのブランチにいることを確認してから「git merge main」でmainと同じ状況にすることが出来ます。subの方だけの物がある場合どうなるかわからないので、確認します。。
